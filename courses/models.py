@@ -14,3 +14,4 @@ class Task(models.Model):
     text = models.TextField()
     test_form = models.TextField()
     completed = models.BooleanField(default=False)
+
